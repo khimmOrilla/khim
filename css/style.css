@@ -929,9 +929,11 @@ ul {
 }
 .portfolio-showcase #grid .thumbnails {
     float: left;
-    height: auto;
+    width: 20%; 
+    object-fit: cover;
+    
     margin: 0;
-    width: 25%;
+    
 
 }
 .portfolio-showcase #grid .thumbnails a {
